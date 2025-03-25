@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      rel="apple-touch-icon"
+      sizes="57x57"
+      href="/favicon/apple-icon-57x57.png" />
+    <link
+      rel="apple-touch-icon"
+      sizes="60x60"
+      href="/favicon/apple-icon-60x60.png" />
+    <link
+      rel="apple-touch-icon"
+      sizes="72x72"
+      href="/favicon/apple-icon-72x72.png" />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="/favicon/apple-icon-76x76.png" />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="/favicon/apple-icon-114x114.png" />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="/favicon/apple-icon-120x120.png" />
+    <link
+      rel="apple-touch-icon"
+      sizes="144x144"
+      href="/favicon/apple-icon-144x144.png" />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="/favicon/apple-icon-152x152.png" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/favicon/apple-icon-180x180.png" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="/favicon/android-icon-192x192.png" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/favicon/favicon-32x32.png" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="96x96"
+      href="/favicon/favicon-96x96.png" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/favicon/favicon-16x16.png" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="ESS Application" />
+    <meta http-equiv="content-language" content="In-Id" />
+    <meta name="geo.country" content="id" />
+    <meta name="geo.placename" content="Indonesia" />
+    <meta name="theme-color" content="#1a9640" />
+
+    <meta http-equiv="Cache-Control" content="no-store" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta
+      name="apple-mobile-web-app-status-bar-style"
+      content="black-translucent" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+    <style>
+      [v-cloak] > * {
+        display: none;
+      }
+      #body {
+        margin: 0;
+      }
+      #loading__container {
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #fff;
+        /* background: #10b981; */
+        background: #16a34a;
+        text-transform: uppercase;
+        font-family: Arial, sans-serif;
+        font-size: 10px;
+        letter-spacing: 2px;
+      }
+      .preloader {
+        margin: 0 auto;
+      }
+      .lds-ellipsis {
+        display: inline-block;
+        position: relative;
+        width: 80px;
+        height: 80px;
+      }
+      .lds-ellipsis div {
+        position: absolute;
+        top: 33px;
+        width: 13px;
+        height: 13px;
+        border-radius: 50%;
+        background: #fff;
+        animation-timing-function: cubic-bezier(0, 1, 1, 0);
+      }
+      .lds-ellipsis div:nth-child(1) {
+        left: 8px;
+        animation: lds-ellipsis1 0.6s infinite;
+      }
+      .lds-ellipsis div:nth-child(2) {
+        left: 8px;
+        animation: lds-ellipsis2 0.6s infinite;
+      }
+      .lds-ellipsis div:nth-child(3) {
+        left: 32px;
+        animation: lds-ellipsis2 0.6s infinite;
+      }
+      .lds-ellipsis div:nth-child(4) {
+        left: 56px;
+        animation: lds-ellipsis3 0.6s infinite;
+      }
+      @keyframes lds-ellipsis1 {
+        0% {
+          transform: scale(0);
+        }
+        100% {
+          transform: scale(1);
+        }
+      }
+      @keyframes lds-ellipsis3 {
+        0% {
+          transform: scale(1);
+        }
+        100% {
+          transform: scale(0);
+        }
+      }
+      @keyframes lds-ellipsis2 {
+        0% {
+          transform: translate(0, 0);
+        }
+        100% {
+          transform: translate(24px, 0);
+        }
+      }
+    </style>
+    <script type="module" crossorigin src="/assets/index-MEDYofGz.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-tx2ksjG5.css">
+  <link rel="manifest" href="/manifest.webmanifest"><script id="vite-plugin-pwa:register-sw" src="/registerSW.js"></script></head>
+  <body id="body">
+    <div id="app" v-cloak>
+      <div id="loading__container">
+        <div class="preloader">
+          <div class="lds-ellipsis">
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- <script src="http://lsstgarb01:800/global/rest-client/index.js"></script> -->
+    <!-- <script src="https://ess.londonsumatra.com/global/rest-client/index.js"></script> -->
+    <script src="/public/rest-client/index.js"></script>
+  </body>
+</html>
