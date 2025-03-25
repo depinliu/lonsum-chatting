@@ -1,1 +1,0 @@
-import{f as s,b as a,j as n,o as r,w as u,a as l,u as c}from"./index-MEDYofGz.js";const B={__name:"ButtonNewChat",setup(p){const e=s();return(i,t)=>{const o=a("Button");return r(),n(o,{onClick:t[0]||(t[0]=f=>c(e).clickButtonNewChat()),class:"bg-primary text-white"},{default:u(()=>t[1]||(t[1]=[l("i",{class:"fa-solid fa-plus"},null,-1)])),_:1})}}};export{B as default};
